@@ -44,7 +44,7 @@ body {
 }
 main {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 75% 25%;
   max-width: 1200px;
 }
 .left_section {
@@ -95,27 +95,32 @@ main {
 }
 .animations {
   position: relative;
-  bottom: -60%;
+  bottom: -30%;
+  left: -10%;
 }
 .animation1 {
-  height: 5.5rem;
-  width: 5.5rem;
+  height: 5rem;
+  width: 5rem;
   background-color: rgba(206, 126, 126);
   border-radius: 50%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
+  opacity: 0.9;
 }
 .animation2 {
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 6rem;
+  width: 6rem;
   background-color: #e7c7e7;
+  opacity: 0.5;
   border-radius: 50%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
+  position: absolute;
+  top: 50px;
 }
 .animation3 {
   height: 3.5rem;
   width: 3.5rem;
   /* background-color: rgb(163, 207, 180); */
-  background-color: #F2F0D8;
+  background-color: rgb(71, 68, 34);
   border-radius: 50%;
   /* border: 1px solid black; */
 }
@@ -137,24 +142,26 @@ main {
     width: 60%;
   }
   .animations {
-    bottom: -30%;
+    bottom: -8%;
     left: 50%;
+    position: relative;
+    /* left: 50%; */
   }
   .animation1 {
     /* height: 7.5rem;
     width: 7.5rem; */
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
   }
   .animation3{
-    position: absolute;
     height: 15rem;
     width: 15rem;
 
   }
   .animation2 {
     position: absolute;
-    height: 4.5rem;
-    width: 4.5rem;
+    top: 140px;
+    height: 20rem;
+    width: 20rem;
   }
 }
