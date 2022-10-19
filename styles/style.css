@@ -12,9 +12,10 @@ body {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #F2F0D8;
+  background-color: #f7f6ee;
   color: rgb(56, 54, 54);
   font-family: 'Nunito Sans', sans-serif;
+  
 }
 
 .header {
@@ -46,6 +47,7 @@ main {
   display: grid;
   grid-template-columns: 75% 25%;
   max-width: 1200px;
+  padding-inline: 0.5rem;
 }
 .left_section {
   display: flex;
@@ -119,10 +121,8 @@ main {
 .animation3 {
   height: 3.5rem;
   width: 3.5rem;
-  /* background-color: rgb(163, 207, 180); */
   background-color: rgb(71, 68, 34);
   border-radius: 50%;
-  /* border: 1px solid black; */
 }
 @media (min-width: 900px) {
   body {
@@ -145,11 +145,8 @@ main {
     bottom: -8%;
     left: 50%;
     position: relative;
-    /* left: 50%; */
   }
   .animation1 {
-    /* height: 7.5rem;
-    width: 7.5rem; */
     height: 15rem;
     width: 15rem;
   }
