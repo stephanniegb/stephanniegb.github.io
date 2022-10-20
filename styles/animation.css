@@ -54,30 +54,12 @@ header{
 }
 @keyframes move-ball{
     0%{
-        transform: translateX(-5px);
+        transform: translateX(-7px);
     }
     50%{
-        transform: translateY(5px);
+        transform: translateY(7px);
     }
     100%{
-        transform: translateX(-5px)
+        transform: translateX(-7px)
     }
 }
-@media (min-width: 900px){
-    .animation1{
-        animation: 800ms;
-    }
-    @keyframes move-ball{
-        0%{
-            transform: translateX(-100px);
-        }
-        50%{
-            transform: translateY(100px);
-        }
-        100%{
-            transform: translateX(-100px);
-        }
-    }
-
-}
-
