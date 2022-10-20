@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 4rem;
   background-color: #f7f6ee;
   color: rgb(56, 54, 54);
   font-family: 'Nunito Sans', sans-serif;
