@@ -111,6 +111,8 @@ button {
   padding: 0.5rem;
   transition: 0.3s;
   font-weight: 700;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 button:hover {
   background-color: #b1cddf;
@@ -143,7 +145,6 @@ button:hover {
     grid-column: 3 / -1;
     background-color: antiquewhite;
     align-self: flex-end;
-    gap: 3rem;
     padding: 1rem;
     border-top-left-radius: 50px;
     text-align: center;
