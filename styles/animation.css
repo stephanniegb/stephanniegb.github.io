@@ -6,6 +6,9 @@
 header{
     animation: nav-load var(--nav-load-time) ease-in; 
 }
+.show{
+    animation: div-load var(--article-laod-delay) ease-in;
+}
 
 .left_section h1{
     animation: article-load 300ms ease-in var(--article-laod-delay) ;
@@ -61,5 +64,14 @@ header{
     }
     100%{
         transform: translateX(-7px)
+    }
+}
+@keyframes div-load{
+    0%{
+        transform: translateX(100%); 
+    }
+    100%{
+        transform: translateX(0);
+
     }
 }
