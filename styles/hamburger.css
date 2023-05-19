@@ -19,6 +19,8 @@
 @media(max-width:900px){
     .hamburger{
         display: block;
+        background: transparent;
+  border: none;
     }
     .hamburger.active > .bar:nth-child(2){
         opacity: 0;
